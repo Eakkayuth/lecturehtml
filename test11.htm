@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Table Tag : (Block tag) -->
+    <!-- Table แบบที่1(แต่ละ cell ใน table มีขนาดเท่ากัน) -->
+    <table border="1" width="500px">
+        <tr>
+            <td>AA</td>
+            <td>BB</td>
+            <td>CC</td>
+            <td>DD</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>22</td>
+            <td>33</td>
+            <td>44</td>
+        </tr>
+        <tr>
+            <td>กก</td>
+            <td>ขข</td>
+            <td>คค</td>
+            <td>งง</td>
+        </tr>
+
+    </table>
+    <br><br><br>
+    <!-- Table แบบที่2 (แต่ละ cell ใน table มีขนาดไม่เท่ากัน) -->
+    <table border="1" width="500px" style="text-align: center;">
+        <tr>
+            <td colspan="2">a</td>
+            <td>b</td>
+            <td>c</td>
+            <td>d</td>
+        </tr>
+        <tr>
+            <td>e</td>
+            <td colspan="2" rowspan="2">f</td>
+            <td colspan="2">g</td>
+        </tr>
+        <tr>
+            <td>h</td>
+            <td rowspan="2">i</td>
+            <td>j</td>
+        </tr>
+        <tr>
+            <td colspan="2">k</td>
+            <td>l</td>
+            <td>m</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <!-- Table แบบที่3 แบบมีการกำหนดหัวตาราง -->
+    <!-- หัวตารางแนวตั้ง -->
+    <table border="1" width="500px">
+        <tr>
+            <th>No</th>
+            <th>ชื่อ-สกุล</th>
+            <th>อายุ</th>
+            <th>สาขา</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>สมชาย สมหมาย</td>
+            <td>20</td>
+            <td>วิทยาการข้อมูล</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>สมชาย สมหมาย</td>
+            <td>20</td>
+            <td>วิทยาการข้อมูล</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>สมชาย สมหมาย</td>
+            <td>20</td>
+            <td>วิทยาการข้อมูล</td>
+        </tr>
+    </table>
+
+    <br><br><br>
+    <!-- หัวตารางแนวนอน -->
+    <table border="1" width="500px">
+        <tr>
+            <th>กรุงเทพ</th>
+            <td>บางแค</td>
+            <td>บางพี</td>
+        </tr>
+        <tr>
+            <th>ลพบุรี</th>
+            <td>ลําลูกกา</td>
+            <td>บางลุ่ม</td>
+        </tr>
+        <tr>
+            <th>กาญจนบุรี</th>
+            <td>สิงบุรี</td>
+            <td>ประณี</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <!-- Table แบบที่ 4 แบบมีการแบ่งส่วนต่างๆของตาราง  -->
+    <table border="1" width="500px">
+        <caption style="padding-bottom: 15px;">รายการสินค้า</caption>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>รายการ</th>
+                <th>ราคา</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: center;">1</td>
+                <td>กาแฟ</td>
+                <td style="text-align: right; padding-right: 30px;">30</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">2</td>
+                <td>ชา</td>
+                <td style="text-align: right; padding-right: 30px;">20</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">3</td>
+                <td>นม</td>
+                <td style="text-align: right; padding-right: 30px;">50</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2" style="text-align: center; padding-right: 30px;">รวม</th>
+                <td style="text-align: right; padding-right: 30px;">120</td>
+            </tr>
+
+        </tfoot>
+
+    </table>
+
+
+</body>
+
+</html>
